@@ -7,6 +7,7 @@ interface Props {
 export const Container = styled.div<Props>`
   z-index: 999;
   width: 100%;
+
   max-width: 261px;
   background-color: ${({ theme }) => theme.colors.backgroundSecondary};
   padding: 42px;
@@ -14,9 +15,10 @@ export const Container = styled.div<Props>`
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+
   @media (max-width: 768px) {
     position: absolute;
-    height: 100%;
+    height: 2458px;
     display: ${({ openMobile }) => (openMobile ? 'flex' : 'none')};
   }
 `;
