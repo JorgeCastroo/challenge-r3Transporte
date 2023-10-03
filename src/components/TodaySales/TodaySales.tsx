@@ -18,7 +18,7 @@ const TodaySales: React.FC = () => {
         <Button label="Export" hasIcon="Export" type="Secondary" />
       </S.WrappedHeader>
       <S.WrappedCards>
-        <Card icon={IconSales} color="#FFE2E5" title="$1k" description="+8% from yesterday" subtitle="Total Sales" />
+        <Card icon={IconProduct} color="#FFE2E5" title="$1k" description="+8% from yesterday" subtitle="Total Sales" />
         <Card icon={IconOrder} color="#FFF4DE" title="300" description="+5% from yesterday" subtitle="Total Order" />
         <Card
           icon={IconProduct}
